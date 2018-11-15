@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
-<form action="" method="post" class="smart-green">
+<form action="{% url 'get_start' %}" method="post" class="smart-green">
     <h1>留言簿
         <span>走过路过不妨留下你的轨迹.</span>
     </h1>
@@ -41,6 +41,6 @@
     </label>
     {% csrf_token %}
 </form>
-
+{{ 10241024|filesizeformat }}
 </body>
 </html>

@@ -5,4 +5,6 @@ from django.shortcuts import render
 
 def getstart(request):
 
+    print(request.POST)
+
     return render(request=request, template_name='start.html')

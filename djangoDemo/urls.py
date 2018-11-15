@@ -20,5 +20,5 @@ from liuyan.views import getstart
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('start/', getstart),
+    path('start/', getstart, name='get_start'),
 ]
